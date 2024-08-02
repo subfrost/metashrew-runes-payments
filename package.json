@@ -11,19 +11,28 @@
     "prettier": "npm-run-all prettier:assemblyscript prettier:ts",
     "test": "ts-mocha --timeout 0 ./tests/**.spec.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.6",
+    "ts-node": "^10.9.2"
+  },
   "devDependencies": {
+    "@bitauth/libauth": "^3.0.0",
+    "@magiceden-oss/runestone-lib": "^1.0.2",
+    "@protobuf-ts/protoc": "^2.9.4",
+    "@types/chai": "4",
+    "@types/mocha": "^10.0.6",
     "@types/node": "^20.10.6",
     "assemblyscript": "^0.27.22",
     "assemblyscript-prettier": "^3.0.1",
     "chai": "^5.1.0",
     "fs-extra": "^11.2.0",
     "metashrew-as": "https://github.com/sandshrewmetaprotocols/metashrew-as",
-    "metashrew-test": "https://github.com/sandshrewmetaprotocols/metashrew-test",
     "metashrew-runes": "https://github.com/sandshrewmetaprotocols/metashrew-runes",
+    "metashrew-test": "https://github.com/sandshrewmetaprotocols/metashrew-test",
     "mocha": "^10.3.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.1.1",
+    "protobuf-as": "https://github.com/sandshrewmetaprotocols/protobuf-as",
     "rlp": "^3.0.0",
     "ts-mocha": "^10.0.0",
     "typescript": "^5.3.3"
