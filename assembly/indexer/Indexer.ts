@@ -17,6 +17,7 @@ export class RunesPayment extends RunestoneMessage {
                 let input = tx.ins[j];
                 let prev = input.previousOutput();
                 OUTPOINT_TO_RUNES.select(prev.toArrayBuffer());
+                
                 // need to check is the edict specifies who recipient is meant to be
 
 
